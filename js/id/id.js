@@ -183,7 +183,7 @@ window.iD = function () {
             if (!context.hasEntity(id)) return;
             map.on('drawn.loadEntity', null);
             context.on('enter.loadEntity', null);
-            context.enter(iD.modes.Select(context, [id]));
+            //context.enter(iD.modes.Select(context, [id]));
         });
 
         context.on('enter.loadEntity', function() {

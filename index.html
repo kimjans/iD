@@ -227,8 +227,79 @@
 
         <script src='js/lib/locale.js'></script>
         <script src='data/introGraph.js'></script>
+        
+        <!-- 추가한 스크립트, CSS -->
+        <script src='add/jquery.min.js'></script>
+        <script src='add/jquery.easyui.min.js'></script>
+        <script src='add/colpick.js'></script>
+        <link rel='stylesheet' href='add/colpick.css'>
+        
+		<link rel='stylesheet' href='add/tree.css'>     
+		
+		<script src='js/id/modes/styleChanger.js'></script>
+		<script src='js/id/ui/styleTree.js'></script>
+		<script>
+		
+		_.extend(iD.Way.prototype, {
+			
+			setColor : function(type, value){
+				this.color[type] = value;
+				if(this.elements && this.elements[type]){
+					
+					var element = this.elements[type];
+					switch(type){
+	                	case "fill" :
+	                		element.style.fill = value;
+	                		element.style.stroke = value;
+	                		break;
+	                	case "stroke" :
+	                		element.style.stroke = value;
+	                		break;
+	                	case "shadow" :
+	                		element.style.stroke = value;
+	                		break;
+	                	
+                	}
+					
+				}
+			},
+			getColor : function(type){
+				if(!type) return false;
+				this.createColorValue(type);
+				return this.color[type];
+			},
+			createColorValue : function(type){
+				//context.graph()
+				//entity.geometry(graph) !== 'area'
+				if(!this.color){
+					this.color = {};
+				}
+				if(!this.color[type]) { this.color[type] = null; }
+			}
+			
+		});
+		</script>
+		<style>
+		.styleTree{
+			position:fixed;
+			left:20px;
+			top:20px;
+			width:250px;
+			height:300px;
+			background:#DDD;
+			z-index:1000;
+			display:none;
+		}
+		.styleTree h3{margin-left:20px;margin-top:2px;}
+		</style>
+		<!-- 추가한 스크립트, CSS 끝. -->   
     </head>
     <body>
+    	<div class="styleTree">
+    		<h3>Tree Area Sample</h3>
+    		<div id="styleTree" >
+    		</div>
+    	</div>
         <div id='id-container'></div>
         <script>
             iD.data.load(function() {

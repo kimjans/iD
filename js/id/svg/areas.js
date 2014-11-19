@@ -28,6 +28,7 @@ iD.svg.Areas = function(projection) {
     }
 
     return function drawAreas(surface, graph, entities, filter) {
+    	
         var path = iD.svg.Path(projection, graph, true),
             areas = {},
             multipolygon;
@@ -111,7 +112,6 @@ iD.svg.Areas = function(projection) {
                 return fills[bisect(fills, -entity.area(graph))];
             }
         }
-
         paths.enter()
             .insert('path', sortedByArea)
             .each(function(entity) {
@@ -123,6 +123,18 @@ iD.svg.Areas = function(projection) {
                     this.setAttribute('clip-path', 'url(#' + entity.id + '-clippath)');
                     setPattern.apply(this, arguments);
                 }
+                
+                
+                //* 추가 된 부분 *//
+                if(!entity.elements) entity.elements = {};
+                entity.elements[layer] = this;
+                if(entity.getColor && entity.getColor(layer) ){
+                	var color = entity.getColor(layer);
+                	entity.setColor( layer, color );
+                }
+                //* 추가 된 부분 끝*//
+                
+                
             })
             .call(iD.svg.TagClasses());
 

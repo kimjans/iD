@@ -81,6 +81,20 @@ iD.svg.Lines = function(projection) {
         lines.enter()
             .append('path')
             .attr('class', function(d) { return 'way line ' + this.parentNode.__data__ + ' ' + d.id; })
+            .each(function(entity) {
+            	
+            	var layer = this.parentNode.__data__;
+            	//* 추가 된 부분 *//
+                if(!entity.elements) entity.elements = {};
+                entity.elements[layer] = this;
+                if(entity.getColor && entity.getColor(layer) ){
+                	var color = entity.getColor(layer);
+                	entity.setColor( layer, color );
+                }
+                //* 추가 된 부분 끝*//
+            
+                
+            })
             .call(iD.svg.TagClasses());
 
         lines

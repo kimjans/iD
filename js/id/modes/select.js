@@ -175,6 +175,7 @@ iD.modes.Select = function(context, selectedIDs) {
     };
 
     mode.exit = function() {
+    	
         if (timeout) window.clearTimeout(timeout);
 
         if (inspector) wrap.call(inspector.close);
