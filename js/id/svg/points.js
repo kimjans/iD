@@ -26,10 +26,32 @@ iD.svg.Points = function(projection, context) {
             .order();
 
         group.append('path')
-            .call(markerPath, 'shadow');
+            .call(markerPath, 'shadow').each(function(entity){
+
+            	var layer = 'shadow';
+            	//* 추가 된 부분 *//
+                if(!entity.elements) entity.elements = {};
+                entity.elements[layer] = this;
+                if(entity.getColor && entity.getColor(layer) ){
+                	var color = entity.getColor(layer);
+                	entity.setColor( layer, color );
+                }
+                //* 추가 된 부분 끝*//
+            });
 
         group.append('path')
-            .call(markerPath, 'stroke');
+            .call(markerPath, 'stroke').each(function(entity){
+            	var layer = 'stroke';
+            	//* 추가 된 부분 *//
+                if(!entity.elements) entity.elements = {};
+                entity.elements[layer] = this;
+                if(entity.getColor && entity.getColor(layer) ){
+                	var color = entity.getColor(layer);
+                	entity.setColor( layer, color );
+                }
+                //* 추가 된 부분 끝*//
+            	
+            });
 
         group.append('use')
             .attr('class', 'icon')

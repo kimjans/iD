@@ -58,13 +58,15 @@ iD.svg.Areas = function(projection) {
         var strokes = areas.filter(function(area) {
             return area.type === 'way';
         });
-
+        
+        
         var data = {
             clip: areas,
             shadow: strokes,
             stroke: strokes,
             fill: areas
         };
+        console.log( data );
 
         var clipPaths = surface.selectAll('defs').selectAll('.clipPath')
            .filter(filter)
@@ -123,7 +125,6 @@ iD.svg.Areas = function(projection) {
                     this.setAttribute('clip-path', 'url(#' + entity.id + '-clippath)');
                     setPattern.apply(this, arguments);
                 }
-                
                 
                 //* 추가 된 부분 *//
                 if(!entity.elements) entity.elements = {};

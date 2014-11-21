@@ -48,13 +48,13 @@ iD.ui.StyleTree = function(context) {
 		},
 		show : function(selectedIDs){
 			
-			console.log( selectedIDs ,context.entity( selectedIDs[0] ) )
 			if(!selectedIDs) return;
 			
 			$(".styleTree").show();
 			var data = [];
 			for(var i = 0 ;i < selectedIDs.length ; ++i ){
 				var entity = context.entity( selectedIDs[i] );
+				console.log( entity )
 				if(entity.color){
 					var color = entity.color;
 					
