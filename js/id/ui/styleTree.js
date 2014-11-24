@@ -30,36 +30,36 @@ iD.ui.StyleTree = function(context) {
 					
 				}
 			}
-		})
+		});
 		
 	}
 	var setColor = function(attributes, hex){
-		
 		var entity = context.entity( attributes.id );
-		entity.setColor( attributes.key, "#" +hex);
-		
-	} 
+		entity.setColor( attributes.key, "#" +hex, context);
+	}
+	
 	
 	return {
 		hide : function(){
 			
-			$(".styleTree").hide();
+			//$(".styleTree").hide();
 					
 		},
 		show : function(selectedIDs){
 			
 			if(!selectedIDs) return;
 			
-			$(".styleTree").show();
+			//$(".styleTree").show();
 			var data = [];
 			for(var i = 0 ;i < selectedIDs.length ; ++i ){
 				var entity = context.entity( selectedIDs[i] );
-				console.log( entity )
+				
 				if(entity.color){
 					var color = entity.color;
-					
 					var children = [];
 					for(var key in color){
+						
+						if(key == "shadow"){continue;} //shadow를 컨트롤에서 제외.
 						children.push({
 							text : key,
 							state : 'closed',

@@ -57,7 +57,7 @@ iD.svg.Vertices = function(projection, context) {
         } else {
             z = 2;
         }
-
+        
         var groups = selection.data(vertices, function(entity) {
             return iD.Entity.key(entity);
         });
@@ -104,16 +104,36 @@ iD.svg.Vertices = function(projection, context) {
                     }
                 });
         }
+        
+       
+        
 
         var enter = groups.enter()
             .append('g')
             .attr('class', function(d) { return 'node vertex ' + klass + ' ' + d.id; });
 
         enter.append('circle')
-            .each(classCircle('shadow'));
+            .each(classCircle('shadow')).each(function(entity){
+            	var layer = 'shadow';
+            	//* 추가 된 부분 *//
+                if(entity.getColor && entity.getColor(layer) ){
+                	var color = entity.getColor(layer);
+                	entity.setColor( layer, color, context );
+                }	
+                //* 추가 된 부분 끝*//
+            });
 
         enter.append('circle')
-            .each(classCircle('stroke'));
+            .each(classCircle('stroke')).each(function(entity){
+            	var layer = 'stroke';
+            	//* 추가 된 부분 *//
+                if(entity.getColor && entity.getColor(layer) ){
+                	var color = entity.getColor(layer);
+                	entity.setColor( layer, color , context);
+                }	
+                //* 추가 된 부분 끝*//
+            	
+            });
 
         // Vertices with icons get a `use`.
         enter.filter(function(d) { return icon(d); })

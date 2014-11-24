@@ -30,11 +30,9 @@ iD.svg.Points = function(projection, context) {
 
             	var layer = 'shadow';
             	//* 추가 된 부분 *//
-                if(!entity.elements) entity.elements = {};
-                entity.elements[layer] = this;
                 if(entity.getColor && entity.getColor(layer) ){
                 	var color = entity.getColor(layer);
-                	entity.setColor( layer, color );
+                	entity.setColor( layer, color, context );
                 }
                 //* 추가 된 부분 끝*//
             });
@@ -43,11 +41,9 @@ iD.svg.Points = function(projection, context) {
             .call(markerPath, 'stroke').each(function(entity){
             	var layer = 'stroke';
             	//* 추가 된 부분 *//
-                if(!entity.elements) entity.elements = {};
-                entity.elements[layer] = this;
                 if(entity.getColor && entity.getColor(layer) ){
                 	var color = entity.getColor(layer);
-                	entity.setColor( layer, color );
+                	entity.setColor( layer, color, context );
                 }
                 //* 추가 된 부분 끝*//
             	

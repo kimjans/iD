@@ -348,6 +348,7 @@ iD.Connection = function() {
                 event.load(err, _.extend({data: parsed}, tile));
 
                 if (_.isEmpty(inflight)) {
+                	
                     event.loaded();
                 }
             });

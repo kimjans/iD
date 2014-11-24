@@ -66,7 +66,6 @@ iD.svg.Areas = function(projection) {
             stroke: strokes,
             fill: areas
         };
-        console.log( data );
 
         var clipPaths = surface.selectAll('defs').selectAll('.clipPath')
            .filter(filter)
@@ -127,11 +126,9 @@ iD.svg.Areas = function(projection) {
                 }
                 
                 //* 추가 된 부분 *//
-                if(!entity.elements) entity.elements = {};
-                entity.elements[layer] = this;
                 if(entity.getColor && entity.getColor(layer) ){
                 	var color = entity.getColor(layer);
-                	entity.setColor( layer, color );
+                	entity.setColor( layer, color, context );
                 }
                 //* 추가 된 부분 끝*//
                 

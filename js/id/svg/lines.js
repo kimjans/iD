@@ -85,11 +85,9 @@ iD.svg.Lines = function(projection) {
             	
             	var layer = this.parentNode.__data__;
             	//* 추가 된 부분 *//
-                if(!entity.elements) entity.elements = {};
-                entity.elements[layer] = this;
                 if(entity.getColor && entity.getColor(layer) ){
                 	var color = entity.getColor(layer);
-                	entity.setColor( layer, color );
+                	entity.setColor( layer, color, context );
                 }
                 //* 추가 된 부분 끝*//
             

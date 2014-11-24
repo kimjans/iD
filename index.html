@@ -229,35 +229,37 @@
         <script src='data/introGraph.js'></script>
         
         <!-- 추가한 스크립트, CSS -->
-        <script src='add/jquery.min.js'></script>
-        <script src='add/jquery.easyui.min.js'></script>
-        <script src='add/colpick.js'></script>
-        <link rel='stylesheet' href='add/colpick.css'>
-        
-		<link rel='stylesheet' href='add/tree.css'>     
-		
-		<script src='js/id/modes/styleChanger.js'></script>
+        <script src='add/libs/jquery.min.js'></script>
+        <script src='add/libs/jquery.easyui.min.js'></script>
+        <script src='add/libs/colpick.js'></script>
+        <script src='js/id/modes/styleChanger.js'></script>
 		<script src='js/id/ui/styleTree.js'></script>
+
 		<script src='add/addscript.js'></script>
+				
+		<link rel='stylesheet' href='add/libs/colpick.css'>
+        <link rel='stylesheet' href='add/libs/tree.css'>
 		<style>
 		.styleTree{
 			position:fixed;
-			left:20px;
-			top:20px;
-			width:250px;
-			height:300px;
+			left:10px;
+			top:10px;
+			width:300px;
+			height:500px;
 			background:#DDD;
 			z-index:1000;
-			display:none;
 		}
-		.styleTree h3{margin-left:20px;margin-top:2px;}
+		.styleTree h3{margin-left:20px;margin-top:10px;}
 		</style>
 		<!-- 추가한 스크립트, CSS 끝. -->   
     </head>
     <body>
     	<div class="styleTree">
-    		<h3>Tree Area Sample</h3>
+    		<h3>Selected Node Tree</h3>
     		<div id="styleTree" >
+    		</div>
+    		<h3>Default Node Tree</h3>
+    		<div id="styleTreeDefault" >
     		</div>
     	</div>
         <div id='id-container'></div>

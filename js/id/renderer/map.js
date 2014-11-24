@@ -125,7 +125,7 @@ iD.Map = function(context) {
         }
 
         data = features.filter(data, graph);
-
+        
         surface
             .call(vertices, graph, data, filter, map.extent(), map.zoom())
             .call(lines, graph, data, filter)
@@ -134,6 +134,8 @@ iD.Map = function(context) {
             .call(labels, graph, data, filter, dimensions, !difference && !extent)
             .call(points, data, filter);
 
+        treeManger.updateMap( data );
+        
         dispatch.drawn({full: true});
     }
 
@@ -216,6 +218,8 @@ iD.Map = function(context) {
         } else {
             editOff();
         }
+        
+        
 
         transformStart = [
             projection.scale() * 2 * Math.PI,
