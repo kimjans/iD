@@ -1,0 +1,1924 @@
+[{
+    "query": "path.casing.line.tag-railway.tag-bridge",
+    "layerName": "casing",
+    "style": [
+        ["stroke-width", "10"]
+    ],
+    "tag": [
+        ["railway", null],
+        ["bridge", null]
+    ]
+},
+{
+    "query": "path.casing.tag-highway-living_street.tag-bridge",
+    "layerName": "casing",
+    "style": [
+        ["stroke-width", "10"]
+    ],
+    "tag": [
+        ["highway", "living_street"],
+        ["bridge", null]
+    ]
+},
+{
+    "query": "path.casing.tag-highway-path.tag-bridge",
+    "layerName": "casing",
+    "style": [
+        ["stroke-width", "10"]
+    ],
+    "tag": [
+        ["highway", "path"],
+        ["bridge", null]
+    ]
+},
+{
+    "query": "path.casing.line.tag-highway-pedestrian.tag-bridge",
+    "layerName": "casing",
+    "style": [
+        ["stroke-width", "10"]
+    ],
+    "tag": [
+        ["highway", "pedestrian"],
+        ["bridge", null]
+    ]
+},
+{
+    "query": "path.casing.tag-highway-service.tag-bridge",
+    "layerName": "casing",
+    "style": [
+        ["stroke-width", "10"]
+    ],
+    "tag": [
+        ["highway", "service"],
+        ["bridge", null]
+    ]
+},
+{
+    "query": "path.casing.tag-highway-track.tag-bridge",
+    "layerName": "casing",
+    "style": [
+        ["stroke-width", "10"]
+    ],
+    "tag": [
+        ["highway", "track"],
+        ["bridge", null]
+    ]
+},
+{
+    "query": "path.casing.tag-highway-steps.tag-bridge",
+    "layerName": "casing",
+    "style": [
+        ["stroke-width", "10"]
+    ],
+    "tag": [
+        ["highway", "steps"],
+        ["bridge", null]
+    ]
+},
+{
+    "query": "path.casing.tag-highway-footway.tag-bridge",
+    "layerName": "casing",
+    "style": [
+        ["stroke-width", "10"]
+    ],
+    "tag": [
+        ["highway", "footway"],
+        ["bridge", null]
+    ]
+},
+{
+    "query": "path.casing.tag-highway-cycleway.tag-bridge",
+    "layerName": "casing",
+    "style": [
+        ["stroke-width", "10"]
+    ],
+    "tag": [
+        ["highway", "cycleway"],
+        ["bridge", null]
+    ]
+},
+{
+    "query": "path.casing.tag-highway-bridleway.tag-bridge",
+    "layerName": "casing",
+    "style": [
+        ["stroke-width", "10"]
+    ],
+    "tag": [
+        ["highway", "bridleway"],
+        ["bridge", null]
+    ]
+},
+{
+    "query": "path.stroke.tag-natural",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "rgb(182,225,153)"]
+    ],
+    "tag": [
+        ["natural", null]
+    ]
+},
+{
+    "query": "path.fill.tag-natural",
+    "layerName": "fill",
+    "style": [
+        ["stroke", "rgba(182,225,153,0.3)"],
+        ["fill", "rgba(182,225,153,0.3)"]
+    ],
+    "tag": [
+        ["natural", null]
+    ]
+},
+{
+    "query": "path.stroke.tag-landuse",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "rgb(140,208,95)"]
+    ],
+    "tag": [
+        ["landuse", null]
+    ]
+},
+{
+    "query": "path.stroke.tag-natural-wood",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "rgb(140,208,95)"]
+    ],
+    "tag": [
+        ["natural", "wood"]
+    ]
+},
+{
+    "query": "path.stroke.tag-natural-tree",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "rgb(140,208,95)"]
+    ],
+    "tag": [
+        ["natural", "tree"]
+    ]
+},
+{
+    "query": "path.stroke.tag-natural-grassland",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "rgb(140,208,95)"]
+    ],
+    "tag": [
+        ["natural", "grassland"]
+    ]
+},
+{
+    "query": "path.stroke.tag-natural-grass",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "rgb(140,208,95)"]
+    ],
+    "tag": [
+        ["natural", "grass"]
+    ]
+},
+{
+    "query": "path.stroke.tag-leisure-pitch",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "rgb(140,208,95)"]
+    ],
+    "tag": [
+        ["leisure", "pitch"]
+    ]
+},
+{
+    "query": "path.stroke.tag-leisure-park",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "rgb(140,208,95)"]
+    ],
+    "tag": [
+        ["leisure", "park"]
+    ]
+},
+{
+    "query": "path.fill.tag-landuse",
+    "layerName": "fill",
+    "style": [
+        ["stroke", "rgba(140,208,95,0.3)"],
+        ["fill", "rgba(140,208,95,0.3)"]
+    ],
+    "tag": [
+        ["landuse", null]
+    ]
+},
+{
+    "query": "path.fill.tag-natural-wood",
+    "layerName": "fill",
+    "style": [
+        ["stroke", "rgba(140,208,95,0.3)"],
+        ["fill", "rgba(140,208,95,0.3)"]
+    ],
+    "tag": [
+        ["natural", "wood"]
+    ]
+},
+{
+    "query": "path.fill.tag-natural-tree",
+    "layerName": "fill",
+    "style": [
+        ["stroke", "rgba(140,208,95,0.3)"],
+        ["fill", "rgba(140,208,95,0.3)"]
+    ],
+    "tag": [
+        ["natural", "tree"]
+    ]
+},
+{
+    "query": "path.fill.tag-natural-grassland",
+    "layerName": "fill",
+    "style": [
+        ["stroke", "rgba(140,208,95,0.3)"],
+        ["fill", "rgba(140,208,95,0.3)"]
+    ],
+    "tag": [
+        ["natural", "grassland"]
+    ]
+},
+{
+    "query": "path.fill.tag-natural-grass",
+    "layerName": "fill",
+    "style": [
+        ["stroke", "rgba(140,208,95,0.3)"],
+        ["fill", "rgba(140,208,95,0.3)"]
+    ],
+    "tag": [
+        ["natural", "grass"]
+    ]
+},
+{
+    "query": "path.fill.tag-leisure-pitch",
+    "layerName": "fill",
+    "style": [
+        ["stroke", "rgba(140,208,95,0.3)"],
+        ["fill", "rgba(140,208,95,0.3)"]
+    ],
+    "tag": [
+        ["leisure", "pitch"]
+    ]
+},
+{
+    "query": "path.fill.tag-leisure-park",
+    "layerName": "fill",
+    "style": [
+        ["stroke", "rgba(140,208,95,0.3)"],
+        ["fill", "rgba(140,208,95,0.3)"]
+    ],
+    "tag": [
+        ["leisure", "park"]
+    ]
+},
+{
+    "query": "path.stroke.tag-natural-water",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "rgb(119,211,222)"]
+    ],
+    "tag": [
+        ["natural", "water"]
+    ]
+},
+{
+    "query": "path.stroke.tag-landuse-basin",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "rgb(119,211,222)"]
+    ],
+    "tag": [
+        ["landuse", "basin"]
+    ]
+},
+{
+    "query": "path.stroke.tag-landuse-reservoir",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "rgb(119,211,222)"]
+    ],
+    "tag": [
+        ["landuse", "reservoir"]
+    ]
+},
+{
+    "query": "path.fill.tag-landuse-basin",
+    "layerName": "fill",
+    "style": [
+        ["stroke", "rgba(119,211,222,0.3)"],
+        ["fill", "rgba(119,211,222,0.3)"]
+    ],
+    "tag": [
+        ["landuse", "basin"]
+    ]
+},
+{
+    "query": "path.fill.tag-landuse-reservoir",
+    "layerName": "fill",
+    "style": [
+        ["stroke", "rgba(119,211,222,0.3)"],
+        ["fill", "rgba(119,211,222,0.3)"]
+    ],
+    "tag": [
+        ["landuse", "reservoir"]
+    ]
+},
+{
+    "query": "path.fill.tag-natural-water",
+    "layerName": "fill",
+    "style": [
+        ["stroke", "rgba(119,211,222,0.3)"],
+        ["fill", "rgba(119,211,222,0.3)"]
+    ],
+    "tag": [
+        ["natural", "water"]
+    ]
+},
+{
+    "query": "path.stroke.tag-amenity-childcare",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "rgb(255,255,148)"]
+    ],
+    "tag": [
+        ["amenity", "childcare"]
+    ]
+},
+{
+    "query": "path.stroke.tag-amenity-kindergarten",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "rgb(255,255,148)"]
+    ],
+    "tag": [
+        ["amenity", "kindergarten"]
+    ]
+},
+{
+    "query": "path.stroke.tag-amenity-school",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "rgb(255,255,148)"]
+    ],
+    "tag": [
+        ["amenity", "school"]
+    ]
+},
+{
+    "query": "path.stroke.tag-amenity-college",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "rgb(255,255,148)"]
+    ],
+    "tag": [
+        ["amenity", "college"]
+    ]
+},
+{
+    "query": "path.stroke.tag-amenity-university",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "rgb(255,255,148)"]
+    ],
+    "tag": [
+        ["amenity", "university"]
+    ]
+},
+{
+    "query": "path.fill.tag-amenity-childcare",
+    "layerName": "fill",
+    "style": [
+        ["stroke", "rgba(255,255,148,0.15)"],
+        ["fill", "rgba(255,255,148,0.15)"]
+    ],
+    "tag": [
+        ["amenity", "childcare"]
+    ]
+},
+{
+    "query": "path.fill.tag-amenity-kindergarten",
+    "layerName": "fill",
+    "style": [
+        ["stroke", "rgba(255,255,148,0.15)"],
+        ["fill", "rgba(255,255,148,0.15)"]
+    ],
+    "tag": [
+        ["amenity", "kindergarten"]
+    ]
+},
+{
+    "query": "path.fill.tag-amenity-school",
+    "layerName": "fill",
+    "style": [
+        ["stroke", "rgba(255,255,148,0.15)"],
+        ["fill", "rgba(255,255,148,0.15)"]
+    ],
+    "tag": [
+        ["amenity", "school"]
+    ]
+},
+{
+    "query": "path.fill.tag-amenity-college",
+    "layerName": "fill",
+    "style": [
+        ["stroke", "rgba(255,255,148,0.15)"],
+        ["fill", "rgba(255,255,148,0.15)"]
+    ],
+    "tag": [
+        ["amenity", "college"]
+    ]
+},
+{
+    "query": "path.fill.tag-amenity-university",
+    "layerName": "fill",
+    "style": [
+        ["stroke", "rgba(255,255,148,0.15)"],
+        ["fill", "rgba(255,255,148,0.15)"]
+    ],
+    "tag": [
+        ["amenity", "university"]
+    ]
+},
+{
+    "query": "path.stroke.tag-landuse-residential",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "rgb(196,189,25)"]
+    ],
+    "tag": [
+        ["landuse", "residential"]
+    ]
+},
+{
+    "query": "path.fill.tag-landuse-residential",
+    "layerName": "fill",
+    "style": [
+        ["stroke", "rgba(196,189,25,0.3)"],
+        ["fill", "rgba(196,189,25,0.3)"]
+    ],
+    "tag": [
+        ["landuse", "residential"]
+    ]
+},
+{
+    "query": "path.stroke.tag-landuse-retail",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "rgb(214,136,26)"]
+    ],
+    "tag": [
+        ["landuse", "retail"]
+    ]
+},
+{
+    "query": "path.stroke.tag-landuse-commercial",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "rgb(214,136,26)"]
+    ],
+    "tag": [
+        ["landuse", "commercial"]
+    ]
+},
+{
+    "query": "path.fill.tag-landuse-retail",
+    "layerName": "fill",
+    "style": [
+        ["stroke", "rgba(214,136,26,0.3)"],
+        ["fill", "rgba(214,136,26,0.3)"]
+    ],
+    "tag": [
+        ["landuse", "retail"]
+    ]
+},
+{
+    "query": "path.fill.tag-landuse-commercial",
+    "layerName": "fill",
+    "style": [
+        ["stroke", "rgba(214,136,26,0.3)"],
+        ["fill", "rgba(214,136,26,0.3)"]
+    ],
+    "tag": [
+        ["landuse", "commercial"]
+    ]
+},
+{
+    "query": "path.stroke.tag-landuse-industrial",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "rgb(228,164,245)"]
+    ],
+    "tag": [
+        ["landuse", "industrial"]
+    ]
+},
+{
+    "query": "path.fill.tag-landuse-industrial",
+    "layerName": "fill",
+    "style": [
+        ["stroke", "rgba(228,164,245,0.3)"],
+        ["fill", "rgba(228,164,245,0.3)"]
+    ],
+    "tag": [
+        ["landuse", "industrial"]
+    ]
+},
+{
+    "query": "path.stroke.tag-landuse-quarry",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "rgb(166,149,123)"]
+    ],
+    "tag": [
+        ["landuse", "quarry"]
+    ]
+},
+{
+    "query": "path.fill.tag-landuse-quarry",
+    "layerName": "fill",
+    "style": [
+        ["stroke", "rgba(166,149,123,0.2)"],
+        ["fill", "rgba(166,149,123,0.2)"]
+    ],
+    "tag": [
+        ["landuse", "quarry"]
+    ]
+},
+{
+    "query": "path.stroke.tag-landuse-landfill",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "rgb(255,153,51)"]
+    ],
+    "tag": [
+        ["landuse", "landfill"]
+    ]
+},
+{
+    "query": "path.fill.tag-landuse-landfill",
+    "layerName": "fill",
+    "style": [
+        ["stroke", "rgba(255,153,51,0.2)"],
+        ["fill", "rgba(255,153,51,0.2)"]
+    ],
+    "tag": [
+        ["landuse", "landfill"]
+    ]
+},
+{
+    "query": "path.stroke.tag-landuse-construction",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "rgb(196,189,25)"]
+    ],
+    "tag": [
+        ["landuse", "construction"]
+    ]
+},
+{
+    "query": "path.stroke.tag-landuse-military",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "rgb(214,136,26)"]
+    ],
+    "tag": [
+        ["landuse", "military"]
+    ]
+},
+{
+    "query": "path.fill.tag-landuse-military",
+    "layerName": "fill",
+    "style": [
+        ["stroke", "rgba(214,136,26,0.2)"],
+        ["fill", "rgba(214,136,26,0.2)"]
+    ],
+    "tag": [
+        ["landuse", "military"]
+    ]
+},
+{
+    "query": "path.stroke.tag-natural-wetland",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "rgb(182,225,153)"]
+    ],
+    "tag": [
+        ["natural", "wetland"]
+    ]
+},
+{
+    "query": "path.stroke.tag-landuse-meadow",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "rgb(182,225,153)"]
+    ],
+    "tag": [
+        ["landuse", "meadow"]
+    ]
+},
+{
+    "query": "path.stroke.tag-natural-beach",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "rgb(255,255,126)"]
+    ],
+    "tag": [
+        ["natural", "beach"]
+    ]
+},
+{
+    "query": "path.stroke.tag-natural-scrub",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "rgb(219,240,139)"]
+    ],
+    "tag": [
+        ["natural", "scrub"]
+    ]
+},
+{
+    "query": "path.stroke.tag-landuse-farm",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "rgb(140,208,95)"]
+    ],
+    "tag": [
+        ["landuse", "farm"]
+    ]
+},
+{
+    "query": "path.stroke.tag-landuse-farmland",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "rgb(140,208,95)"]
+    ],
+    "tag": [
+        ["landuse", "farmland"]
+    ]
+},
+{
+    "query": "path.stroke.tag-landuse-cemetery",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "rgb(140,208,95)"]
+    ],
+    "tag": [
+        ["landuse", "cemetery"]
+    ]
+},
+{
+    "query": "path.stroke.tag-landuse-orchard",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "rgb(140,208,95)"]
+    ],
+    "tag": [
+        ["landuse", "orchard"]
+    ]
+},
+{
+    "query": "path.stroke.tag-amenity-parking",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "rgb(170,170,170)"]
+    ],
+    "tag": [
+        ["amenity", "parking"]
+    ]
+},
+{
+    "query": "path.fill.tag-amenity-parking",
+    "layerName": "fill",
+    "style": [
+        ["stroke", "rgba(170,170,170,0.3)"],
+        ["fill", "rgba(170,170,170,0.3)"]
+    ],
+    "tag": [
+        ["amenity", "parking"]
+    ]
+},
+{
+    "query": "path.fill.tag-place",
+    "layerName": "fill",
+    "style": [
+        ["fill", "none"]
+    ],
+    "tag": [
+        ["place", null]
+    ]
+},
+{
+    "query": "path.fill.tag-boundary",
+    "layerName": "fill",
+    "style": [
+        ["fill", "none"]
+    ],
+    "tag": [
+        ["boundary", null]
+    ]
+},
+{
+    "query": "path.shadow.tag-highway",
+    "layerName": "shadow",
+    "style": [
+        ["stroke-width", "16"]
+    ],
+    "tag": [
+        ["highway", null]
+    ]
+},
+{
+    "query": "path.casing.tag-highway",
+    "layerName": "casing",
+    "style": [
+        ["stroke-width", "10"]
+    ],
+    "tag": [
+        ["highway", null]
+    ]
+},
+{
+    "query": "path.stroke.tag-highway",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "#ccc"],
+        ["stroke-width", "8"]
+    ],
+    "tag": [
+        ["highway", null]
+    ]
+},
+{
+    "query": "path.stroke.tag-highway-motorway",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "#58a9ed"]
+    ],
+    "tag": [
+        ["highway", "motorway"]
+    ]
+},
+{
+    "query": "path.stroke.tag-highway-motorway_link",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "#58a9ed"]
+    ],
+    "tag": [
+        ["highway", "motorway_link"]
+    ]
+},
+{
+    "query": "path.stroke.tag-construction-motorway",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "#58a9ed"]
+    ],
+    "tag": [
+        ["construction", "motorway"]
+    ]
+},
+{
+    "query": "path.casing.tag-highway-motorway",
+    "layerName": "casing",
+    "style": [
+        ["stroke", "#2c5476"]
+    ],
+    "tag": [
+        ["highway", "motorway"]
+    ]
+},
+{
+    "query": "path.casing.tag-highway-motorway_link",
+    "layerName": "casing",
+    "style": [
+        ["stroke", "#2c5476"]
+    ],
+    "tag": [
+        ["highway", "motorway_link"]
+    ]
+},
+{
+    "query": "path.casing.tag-construction-motorway",
+    "layerName": "casing",
+    "style": [
+        ["stroke", "#2c5476"]
+    ],
+    "tag": [
+        ["construction", "motorway"]
+    ]
+},
+{
+    "query": "path.stroke.tag-highway-trunk",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "#8cd05f"]
+    ],
+    "tag": [
+        ["highway", "trunk"]
+    ]
+},
+{
+    "query": "path.stroke.tag-highway-trunk_link",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "#8cd05f"]
+    ],
+    "tag": [
+        ["highway", "trunk_link"]
+    ]
+},
+{
+    "query": "path.stroke.tag-construction-trunk",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "#8cd05f"]
+    ],
+    "tag": [
+        ["construction", "trunk"]
+    ]
+},
+{
+    "query": "path.casing.tag-highway-trunk",
+    "layerName": "casing",
+    "style": [
+        ["stroke", "#46682f"]
+    ],
+    "tag": [
+        ["highway", "trunk"]
+    ]
+},
+{
+    "query": "path.casing.tag-highway-trunk_link",
+    "layerName": "casing",
+    "style": [
+        ["stroke", "#46682f"]
+    ],
+    "tag": [
+        ["highway", "trunk_link"]
+    ]
+},
+{
+    "query": "path.casing.tag-construction-trunk",
+    "layerName": "casing",
+    "style": [
+        ["stroke", "#46682f"]
+    ],
+    "tag": [
+        ["construction", "trunk"]
+    ]
+},
+{
+    "query": "path.stroke.tag-highway-primary",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "#e06d5f"]
+    ],
+    "tag": [
+        ["highway", "primary"]
+    ]
+},
+{
+    "query": "path.stroke.tag-highway-primary_link",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "#e06d5f"]
+    ],
+    "tag": [
+        ["highway", "primary_link"]
+    ]
+},
+{
+    "query": "path.stroke.tag-construction-primary",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "#e06d5f"]
+    ],
+    "tag": [
+        ["construction", "primary"]
+    ]
+},
+{
+    "query": "path.casing.tag-highway-primary",
+    "layerName": "casing",
+    "style": [
+        ["stroke", "#70372f"]
+    ],
+    "tag": [
+        ["highway", "primary"]
+    ]
+},
+{
+    "query": "path.casing.tag-highway-primary_link",
+    "layerName": "casing",
+    "style": [
+        ["stroke", "#70372f"]
+    ],
+    "tag": [
+        ["highway", "primary_link"]
+    ]
+},
+{
+    "query": "path.casing.tag-construction-primary",
+    "layerName": "casing",
+    "style": [
+        ["stroke", "#70372f"]
+    ],
+    "tag": [
+        ["construction", "primary"]
+    ]
+},
+{
+    "query": "path.stroke.tag-highway-secondary",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "#eab056"]
+    ],
+    "tag": [
+        ["highway", "secondary"]
+    ]
+},
+{
+    "query": "path.stroke.tag-highway-secondary_link",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "#eab056"]
+    ],
+    "tag": [
+        ["highway", "secondary_link"]
+    ]
+},
+{
+    "query": "path.stroke.tag-construction-secondary",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "#eab056"]
+    ],
+    "tag": [
+        ["construction", "secondary"]
+    ]
+},
+{
+    "query": "path.casing.tag-highway-secondary",
+    "layerName": "casing",
+    "style": [
+        ["stroke", "#75582b"]
+    ],
+    "tag": [
+        ["highway", "secondary"]
+    ]
+},
+{
+    "query": "path.casing.tag-highway-secondary_link",
+    "layerName": "casing",
+    "style": [
+        ["stroke", "#75582b"]
+    ],
+    "tag": [
+        ["highway", "secondary_link"]
+    ]
+},
+{
+    "query": "path.casing.tag-construction-secondary",
+    "layerName": "casing",
+    "style": [
+        ["stroke", "#75582b"]
+    ],
+    "tag": [
+        ["construction", "secondary"]
+    ]
+},
+{
+    "query": "path.stroke.tag-highway-tertiary",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "#ffff7e"]
+    ],
+    "tag": [
+        ["highway", "tertiary"]
+    ]
+},
+{
+    "query": "path.stroke.tag-highway-tertiary_link",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "#ffff7e"]
+    ],
+    "tag": [
+        ["highway", "tertiary_link"]
+    ]
+},
+{
+    "query": "path.stroke.tag-construction-tertiary",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "#ffff7e"]
+    ],
+    "tag": [
+        ["construction", "tertiary"]
+    ]
+},
+{
+    "query": "path.casing.tag-highway-tertiary",
+    "layerName": "casing",
+    "style": [
+        ["stroke", "#7f7f3f"]
+    ],
+    "tag": [
+        ["highway", "tertiary"]
+    ]
+},
+{
+    "query": "path.casing.tag-highway-tertiary_link",
+    "layerName": "casing",
+    "style": [
+        ["stroke", "#7f7f3f"]
+    ],
+    "tag": [
+        ["highway", "tertiary_link"]
+    ]
+},
+{
+    "query": "path.casing.tag-construction-tertiary",
+    "layerName": "casing",
+    "style": [
+        ["stroke", "#7f7f3f"]
+    ],
+    "tag": [
+        ["construction", "tertiary"]
+    ]
+},
+{
+    "query": "path.stroke.tag-highway-unclassified",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "#eaeaea"]
+    ],
+    "tag": [
+        ["highway", "unclassified"]
+    ]
+},
+{
+    "query": "path.stroke.tag-construction-unclassified",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "#eaeaea"]
+    ],
+    "tag": [
+        ["construction", "unclassified"]
+    ]
+},
+{
+    "query": "path.casing.tag-highway-unclassified",
+    "layerName": "casing",
+    "style": [
+        ["stroke", "#444"]
+    ],
+    "tag": [
+        ["highway", "unclassified"]
+    ]
+},
+{
+    "query": "path.casing.tag-construction-unclassified",
+    "layerName": "casing",
+    "style": [
+        ["stroke", "#444"]
+    ],
+    "tag": [
+        ["construction", "unclassified"]
+    ]
+},
+{
+    "query": "path.stroke.tag-highway-residential",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "#fff"]
+    ],
+    "tag": [
+        ["highway", "residential"]
+    ]
+},
+{
+    "query": "path.stroke.tag-construction-residential",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "#fff"]
+    ],
+    "tag": [
+        ["construction", "residential"]
+    ]
+},
+{
+    "query": "path.casing.tag-highway-residential",
+    "layerName": "casing",
+    "style": [
+        ["stroke", "#444"]
+    ],
+    "tag": [
+        ["highway", "residential"]
+    ]
+},
+{
+    "query": "path.casing.tag-construction-residential",
+    "layerName": "casing",
+    "style": [
+        ["stroke", "#444"]
+    ],
+    "tag": [
+        ["construction", "residential"]
+    ]
+},
+{
+    "query": "path.stroke.tag-highway-living_street",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "#ccc"],
+        ["stroke-width", "4"]
+    ],
+    "tag": [
+        ["highway", "living_street"]
+    ]
+},
+{
+    "query": "path.casing.tag-highway-living_street",
+    "layerName": "casing",
+    "style": [
+        ["stroke-width", "10"]
+    ],
+    "tag": [
+        ["highway", "living_street"]
+    ]
+},
+{
+    "query": "path.stroke.tag-highway-pedestrian",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "#fff"],
+        ["stroke-dasharray", "2,8"],
+        ["stroke-width", "4"]
+    ],
+    "tag": [
+        ["highway", "pedestrian"]
+    ]
+},
+{
+    "query": "path.casing.tag-highway-pedestrian",
+    "layerName": "casing",
+    "style": [
+        ["stroke", "#8cd05f"],
+        ["stroke-width", "6"]
+    ],
+    "tag": [
+        ["highway", "pedestrian"]
+    ]
+},
+{
+    "query": "path.stroke.area.tag-highway-pedestrian",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "#fff"],
+        ["stroke-dasharray", "none"],
+        ["stroke-width", "2"]
+    ],
+    "tag": [
+        ["highway", "pedestrian"]
+    ]
+},
+{
+    "query": "path.stroke.tag-highway-service",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "#fff"],
+        ["stroke-width", "4"]
+    ],
+    "tag": [
+        ["highway", "service"]
+    ]
+},
+{
+    "query": "path.casing.tag-highway-service",
+    "layerName": "casing",
+    "style": [
+        ["stroke-width", "10"]
+    ],
+    "tag": [
+        ["highway", "service"]
+    ]
+},
+{
+    "query": "path.stroke.tag-highway-track",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "#fff"],
+        ["stroke-width", "4"]
+    ],
+    "tag": [
+        ["highway", "track"]
+    ]
+},
+{
+    "query": "path.casing.tag-highway-track",
+    "layerName": "casing",
+    "style": [
+        ["stroke-width", "10"]
+    ],
+    "tag": [
+        ["highway", "track"]
+    ]
+},
+{
+    "query": "path.stroke.tag-highway-path",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "#000"],
+        ["stroke-width", "1!important"],
+        ["stroke-linecap", "butt"],
+        ["stroke-dasharray", "8,4"]
+    ],
+    "tag": [
+        ["highway", "path"]
+    ]
+},
+{
+    "query": "path.casing.tag-highway-path",
+    "layerName": "casing",
+    "style": [
+        ["stroke-width", "10"]
+    ],
+    "tag": [
+        ["highway", "path"]
+    ]
+},
+{
+    "query": "path.stroke.tag-highway-footway",
+    "layerName": "stroke",
+    "style": [
+        ["stroke-width", "4"],
+        ["stroke-linecap", "butt"],
+        ["stroke-dasharray", "6,6"]
+    ],
+    "tag": [
+        ["highway", "footway"]
+    ]
+},
+{
+    "query": "path.stroke.tag-highway-cycleway",
+    "layerName": "stroke",
+    "style": [
+        ["stroke-width", "4"],
+        ["stroke-linecap", "butt"],
+        ["stroke-dasharray", "6,6"]
+    ],
+    "tag": [
+        ["highway", "cycleway"]
+    ]
+},
+{
+    "query": "path.stroke.tag-highway-bridleway",
+    "layerName": "stroke",
+    "style": [
+        ["stroke-width", "4"],
+        ["stroke-linecap", "butt"],
+        ["stroke-dasharray", "6,6"]
+    ],
+    "tag": [
+        ["highway", "bridleway"]
+    ]
+},
+{
+    "query": "path.casing.tag-highway-footway",
+    "layerName": "casing",
+    "style": [
+        ["stroke-width", "10"]
+    ],
+    "tag": [
+        ["highway", "footway"]
+    ]
+},
+{
+    "query": "path.casing.tag-highway-cycleway",
+    "layerName": "casing",
+    "style": [
+        ["stroke-width", "10"]
+    ],
+    "tag": [
+        ["highway", "cycleway"]
+    ]
+},
+{
+    "query": "path.casing.tag-highway-bridleway",
+    "layerName": "casing",
+    "style": [
+        ["stroke-width", "10"]
+    ],
+    "tag": [
+        ["highway", "bridleway"]
+    ]
+},
+{
+    "query": "path.stroke.tag-highway-steps",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "#81d25c"],
+        ["stroke-width", "4"],
+        ["stroke-linecap", "butt"],
+        ["stroke-dasharray", "3,3"]
+    ],
+    "tag": [
+        ["highway", "steps"]
+    ]
+},
+{
+    "query": "path.casing.tag-highway-steps",
+    "layerName": "casing",
+    "style": [
+        ["stroke-width", "10"]
+    ],
+    "tag": [
+        ["highway", "steps"]
+    ]
+},
+{
+    "query": "path.stroke.tag-aeroway-taxiway",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "#805C80"],
+        ["stroke-width", "4"]
+    ],
+    "tag": [
+        ["aeroway", "taxiway"]
+    ]
+},
+{
+    "query": "path.shadow.tag-aeroway-runway",
+    "layerName": "shadow",
+    "style": [
+        ["stroke-width", "20"]
+    ],
+    "tag": [
+        ["aeroway", "runway"]
+    ]
+},
+{
+    "query": "path.stroke.tag-aeroway-runway",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "#fff"],
+        ["stroke-width", "2"],
+        ["stroke-linecap", "butt"],
+        ["stroke-dasharray", "24,48"]
+    ],
+    "tag": [
+        ["aeroway", "runway"]
+    ]
+},
+{
+    "query": "path.casing.tag-aeroway-runway",
+    "layerName": "casing",
+    "style": [
+        ["stroke-width", "10"],
+        ["stroke", "#000"],
+        ["stroke-linecap", "square"]
+    ],
+    "tag": [
+        ["aeroway", "runway"]
+    ]
+},
+{
+    "query": "path.fill.tag-aeroway-runway",
+    "layerName": "fill",
+    "style": [
+        ["stroke", "rgba(0,0,0,0.6)"],
+        ["fill", "rgba(0,0,0,0.6)"]
+    ],
+    "tag": [
+        ["aeroway", "runway"]
+    ]
+},
+{
+    "query": "path.stroke.tag-aeroway-apron",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "#805C80"]
+    ],
+    "tag": [
+        ["aeroway", "apron"]
+    ]
+},
+{
+    "query": "path.fill.tag-aeroway-apron",
+    "layerName": "fill",
+    "style": [
+        ["stroke", "rgba(128,92,128,0.2)"],
+        ["fill", "rgba(128,92,128,0.2)"]
+    ],
+    "tag": [
+        ["aeroway", "apron"]
+    ]
+},
+{
+    "query": "path.stroke.tag-railway",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "#eee"],
+        ["stroke-width", "2"],
+        ["stroke-linecap", "butt"],
+        ["stroke-dasharray", "12,12"]
+    ],
+    "tag": [
+        ["railway", null]
+    ]
+},
+{
+    "query": "path.casing.tag-railway",
+    "layerName": "casing",
+    "style": [
+        ["stroke", "#555"],
+        ["stroke-width", "4"]
+    ],
+    "tag": [
+        ["railway", null]
+    ]
+},
+{
+    "query": "path.stroke.tag-railway-abandoned",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "#eee"]
+    ],
+    "tag": [
+        ["railway", "abandoned"]
+    ]
+},
+{
+    "query": "path.casing.tag-railway-abandoned",
+    "layerName": "casing",
+    "style": [
+        ["stroke", "#999"]
+    ],
+    "tag": [
+        ["railway", "abandoned"]
+    ]
+},
+{
+    "query": "path.stroke.tag-railway-subway",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "#666"]
+    ],
+    "tag": [
+        ["railway", "subway"]
+    ]
+},
+{
+    "query": "path.casing.tag-railway-subway",
+    "layerName": "casing",
+    "style": [
+        ["stroke", "#222"]
+    ],
+    "tag": [
+        ["railway", "subway"]
+    ]
+},
+{
+    "query": "path.stroke.tag-railway-platform",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "#999"],
+        ["stroke-width", "4"],
+        ["stroke-dasharray", "none"]
+    ],
+    "tag": [
+        ["railway", "platform"]
+    ]
+},
+{
+    "query": "path.casing.tag-railway-platform",
+    "layerName": "casing",
+    "style": [
+        ["stroke", "none"]
+    ],
+    "tag": [
+        ["railway", "platform"]
+    ]
+},
+{
+    "query": "path.fill.tag-waterway",
+    "layerName": "fill",
+    "style": [
+        ["stroke", "rgba(119,211,222,0.3)"],
+        ["fill", "rgba(119,211,222,0.3)"]
+    ],
+    "tag": [
+        ["waterway", null]
+    ]
+},
+{
+    "query": "path.stroke.tag-waterway",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "#77d3de"],
+        ["stroke-width", "2"]
+    ],
+    "tag": [
+        ["waterway", null]
+    ]
+},
+{
+    "query": "path.casing.tag-waterway",
+    "layerName": "casing",
+    "style": [
+        ["stroke", "#77d3de"],
+        ["stroke-width", "4"]
+    ],
+    "tag": [
+        ["waterway", null]
+    ]
+},
+{
+    "query": "path.stroke.tag-waterway-river",
+    "layerName": "stroke",
+    "style": [
+        ["stroke-width", "4"]
+    ],
+    "tag": [
+        ["waterway", "river"]
+    ]
+},
+{
+    "query": "path.casing.tag-waterway-river",
+    "layerName": "casing",
+    "style": [
+        ["stroke-width", "6"]
+    ],
+    "tag": [
+        ["waterway", "river"]
+    ]
+},
+{
+    "query": "path.stroke.tag-waterway-ditch",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "#6591ff"],
+        ["stroke-width", "1"]
+    ],
+    "tag": [
+        ["waterway", "ditch"]
+    ]
+},
+{
+    "query": "path.casing.tag-waterway-ditch",
+    "layerName": "casing",
+    "style": [
+        ["stroke", "#6591ff"],
+        ["stroke-width", "3"]
+    ],
+    "tag": [
+        ["waterway", "ditch"]
+    ]
+},
+{
+    "query": "path.stroke.tag-power",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "#939393"],
+        ["stroke-width", "2"]
+    ],
+    "tag": [
+        ["power", null]
+    ]
+},
+{
+    "query": "path.casing.tag-power",
+    "layerName": "casing",
+    "style": [
+        ["stroke", "none"]
+    ],
+    "tag": [
+        ["power", null]
+    ]
+},
+{
+    "query": "path.stroke.tag-boundary",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "#fff"],
+        ["stroke-width", "2"],
+        ["stroke-linecap", "butt"],
+        ["stroke-dasharray", "20,5,5,5"]
+    ],
+    "tag": [
+        ["boundary", null]
+    ]
+},
+{
+    "query": "path.casing.tag-boundary",
+    "layerName": "casing",
+    "style": [
+        ["stroke", "#82B5FE"],
+        ["stroke-width", "6"]
+    ],
+    "tag": [
+        ["boundary", null]
+    ]
+},
+{
+    "query": "path.casing.tag-boundary-protected_area",
+    "layerName": "casing",
+    "style": [
+        ["stroke", "#b0e298"]
+    ],
+    "tag": [
+        ["boundary", "protected_area"]
+    ]
+},
+{
+    "query": "path.casing.tag-boundary-national_park",
+    "layerName": "casing",
+    "style": [
+        ["stroke", "#b0e298"]
+    ],
+    "tag": [
+        ["boundary", "national_park"]
+    ]
+},
+{
+    "query": "path.casing.tag-bridge",
+    "layerName": "casing",
+    "style": [
+        ["stroke-width", "16"],
+        ["stroke-opacity", "0.6"],
+        ["stroke", "#000"],
+        ["stroke-linecap", "butt"]
+    ],
+    "tag": [
+        ["bridge", null]
+    ]
+},
+{
+    "query": "path.shadow.tag-bridge",
+    "layerName": "shadow",
+    "style": [
+        ["stroke-width", "22"]
+    ],
+    "tag": [
+        ["bridge", null]
+    ]
+},
+{
+    "query": "path.shadow.line.tag-railway.tag-bridge",
+    "layerName": "shadow",
+    "style": [
+        ["stroke-width", "17"]
+    ],
+    "tag": [
+        ["railway", null],
+        ["bridge", null]
+    ]
+},
+{
+    "query": "path.shadow.tag-highway-living_street.tag-bridge",
+    "layerName": "shadow",
+    "style": [
+        ["stroke-width", "17"]
+    ],
+    "tag": [
+        ["highway", "living_street"],
+        ["bridge", null]
+    ]
+},
+{
+    "query": "path.shadow.tag-highway-path.tag-bridge",
+    "layerName": "shadow",
+    "style": [
+        ["stroke-width", "17"]
+    ],
+    "tag": [
+        ["highway", "path"],
+        ["bridge", null]
+    ]
+},
+{
+    "query": "path.shadow.line.tag-highway-pedestrian.tag-bridge",
+    "layerName": "shadow",
+    "style": [
+        ["stroke-width", "17"]
+    ],
+    "tag": [
+        ["highway", "pedestrian"],
+        ["bridge", null]
+    ]
+},
+{
+    "query": "path.shadow.tag-highway-service.tag-bridge",
+    "layerName": "shadow",
+    "style": [
+        ["stroke-width", "17"]
+    ],
+    "tag": [
+        ["highway", "service"],
+        ["bridge", null]
+    ]
+},
+{
+    "query": "path.shadow.tag-highway-track.tag-bridge",
+    "layerName": "shadow",
+    "style": [
+        ["stroke-width", "17"]
+    ],
+    "tag": [
+        ["highway", "track"],
+        ["bridge", null]
+    ]
+},
+{
+    "query": "path.shadow.tag-highway-steps.tag-bridge",
+    "layerName": "shadow",
+    "style": [
+        ["stroke-width", "17"]
+    ],
+    "tag": [
+        ["highway", "steps"],
+        ["bridge", null]
+    ]
+},
+{
+    "query": "path.shadow.tag-highway-footway.tag-bridge",
+    "layerName": "shadow",
+    "style": [
+        ["stroke-width", "17"]
+    ],
+    "tag": [
+        ["highway", "footway"],
+        ["bridge", null]
+    ]
+},
+{
+    "query": "path.shadow.tag-highway-cycleway.tag-bridge",
+    "layerName": "shadow",
+    "style": [
+        ["stroke-width", "17"]
+    ],
+    "tag": [
+        ["highway", "cycleway"],
+        ["bridge", null]
+    ]
+},
+{
+    "query": "path.shadow.tag-highway-bridleway.tag-bridge",
+    "layerName": "shadow",
+    "style": [
+        ["stroke-width", "17"]
+    ],
+    "tag": [
+        ["highway", "bridleway"],
+        ["bridge", null]
+    ]
+},
+{
+    "query": "path.stroke.tag-tunnel",
+    "layerName": "stroke",
+    "style": [
+        ["stroke-opacity", "0.3"]
+    ],
+    "tag": [
+        ["tunnel", null]
+    ]
+},
+{
+    "query": "path.casing.tag-tunnel",
+    "layerName": "casing",
+    "style": [
+        ["stroke-opacity", "0.5"]
+    ],
+    "tag": [
+        ["tunnel", null]
+    ]
+},
+{
+    "query": "path.casing.tag-embankment",
+    "layerName": "casing",
+    "style": [
+        ["stroke-opacity", "0.5"],
+        ["stroke", "#000"],
+        ["stroke-width", "22"],
+        ["stroke-dasharray", "2,4"],
+        ["stroke-linecap", "butt"]
+    ],
+    "tag": [
+        ["embankment", null]
+    ]
+},
+{
+    "query": "path.casing.tag-cutting",
+    "layerName": "casing",
+    "style": [
+        ["stroke-opacity", "0.5"],
+        ["stroke", "#000"],
+        ["stroke-width", "22"],
+        ["stroke-dasharray", "2,4"],
+        ["stroke-linecap", "butt"]
+    ],
+    "tag": [
+        ["cutting", null]
+    ]
+},
+{
+    "query": "path.shadow.tag-embankment",
+    "layerName": "shadow",
+    "style": [
+        ["stroke-width", "28"]
+    ],
+    "tag": [
+        ["embankment", null]
+    ]
+},
+{
+    "query": "path.shadow.tag-cutting",
+    "layerName": "shadow",
+    "style": [
+        ["stroke-width", "28"]
+    ],
+    "tag": [
+        ["cutting", null]
+    ]
+},
+{
+    "query": "path.stroke.tag-highway-construction",
+    "layerName": "stroke",
+    "style": [
+        ["stroke-linecap", "butt"],
+        ["stroke-dasharray", "7,7"]
+    ],
+    "tag": [
+        ["highway", "construction"]
+    ]
+},
+{
+    "query": "path.casing.tag-highway-construction",
+    "layerName": "casing",
+    "style": [
+        ["stroke-linecap", "butt"],
+        ["stroke-dasharray", "7,7"]
+    ],
+    "tag": [
+        ["highway", "construction"]
+    ]
+},
+{
+    "query": "path.tag-waterway",
+    "layerName": "tag-waterway",
+    "style": [
+        ["fill", "#002F35"]
+    ],
+    "tag": [
+        ["waterway", null]
+    ]
+},
+{
+    "query": "path.stroke.tag-building",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "rgb(224,110,95)"]
+    ],
+    "tag": [
+        ["building", null]
+    ]
+},
+{
+    "query": "path.stroke.tag-amenity-shelter",
+    "layerName": "stroke",
+    "style": [
+        ["stroke", "rgb(224,110,95)"]
+    ],
+    "tag": [
+        ["amenity", "shelter"]
+    ]
+},
+{
+    "query": "path.fill.tag-building",
+    "layerName": "fill",
+    "style": [
+        ["stroke", "rgba(224,110,95,0.3)"],
+        ["fill", "rgba(224,110,95,0.3)"]
+    ],
+    "tag": [
+        ["building", null]
+    ]
+},
+{
+    "query": "path.fill.tag-amenity-shelter",
+    "layerName": "fill",
+    "style": [
+        ["stroke", "rgba(224,110,95,0.3)"],
+        ["fill", "rgba(224,110,95,0.3)"]
+    ],
+    "tag": [
+        ["amenity", "shelter"]
+    ]
+}]
