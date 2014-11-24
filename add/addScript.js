@@ -169,7 +169,7 @@ var nodeUtil = {
 	},
 	appplyStyle : function(){
 		
-		var styleArray = _.map(this.tagStyleList, function(style){
+		var styleArray = _.map(treeManger.tagStyleList, function(style){
 			
 			return [ style['query'],"{",  _.map(style.style, function(d){  return [d[0],":",d[1],";"].join("") }), "}"].join("");
 			
@@ -178,6 +178,7 @@ var nodeUtil = {
 		
 	},
 	setStyle : function(c){
+		
 		$('#customStyle').remove();
 		var b=document.createElement("style");
 		b.type="text/css";

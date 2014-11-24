@@ -230,7 +230,7 @@ For usage and examples: colpick.com/plugin
 			//Show/hide the color picker
 			show = function (ev) {
 				// Prevent the trigger of any direct parent
-				ev.stopPropagation();
+				//ev.stopPropagation();
 				var cal = $('#' + $(this).data('colpickId'));
 				cal.data('colpick').onBeforeShow.apply(this, [cal.get(0)]);
 				var pos = $(this).offset();
@@ -317,6 +317,7 @@ For usage and examples: colpick.com/plugin
 				//For each selected DOM element
 				return this.each(function () {
 					//If the element does not have an ID
+					$(this).data('colpickId', null);
 					if (!$(this).data('colpickId')) {
 						var options = $.extend({}, opt);
 						options.origColor = opt.color;
@@ -380,7 +381,7 @@ For usage and examples: colpick.com/plugin
 							});
 						} else {
 							cal.appendTo(document.body);
-							$(this).on(options.showEvent, show);
+							//$(this).on(options.showEvent, show);
 							cal.css({
 								position:'absolute'
 							});
