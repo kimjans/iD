@@ -318,6 +318,7 @@ For usage and examples: colpick.com/plugin
 				return this.each(function () {
 					//If the element does not have an ID
 					$(this).data('colpickId', null);
+					$(this).find(".colpick").remove();
 					if (!$(this).data('colpickId')) {
 						var options = $.extend({}, opt);
 						options.origColor = opt.color;
